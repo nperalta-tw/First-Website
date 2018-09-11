@@ -30,7 +30,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
-  background: #648880;
 }
 ol, ul {
   list-style: none;
@@ -62,7 +61,8 @@ table {
 /*==Customstyles==*/
 
 body {
-    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-image: url(banff.jpg);  
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   
 /*==Grid==*/
