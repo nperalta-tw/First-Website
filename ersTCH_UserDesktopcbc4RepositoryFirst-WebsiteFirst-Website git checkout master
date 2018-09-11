@@ -1,0 +1,30 @@
+[33mcommit ecbaadb0584a2726662d5db4605b78fc685bd0fb[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 09b425e e81f0ad
+Author: Bijirita <bijirita009@gmail.com>
+Date:   Tue Sep 11 12:05:19 2018 -0400
+
+    Merge branch 'navigation_feature'
+
+[33mcommit e81f0ad7866ac58878d9ac979ad66373602d4386[m[33m ([m[1;31morigin/navigation_feature[m[33m, [m[1;32mnavigation_feature[m[33m)[m
+Author: Bijirita <bijirita009@gmail.com>
+Date:   Tue Sep 11 12:01:22 2018 -0400
+
+    change 2
+
+[33mcommit c2a947b65d31cb28c78dd4ac31b5551c7a2ee3de[m
+Author: Your Name <james.wersal37@gmail.com>
+Date:   Tue Sep 11 11:56:38 2018 -0400
+
+    try it again
+
+[33mcommit 09b425ec825af9d60e578494c222f6e311384d43[m
+Author: Nestor Peralta Jr <43140766+Bijirita@users.noreply.github.com>
+Date:   Tue Sep 11 11:48:17 2018 -0400
+
+    Readme.me
+
+[33mcommit a291a26fd8a4072e4e7b0263670624b468f0f0f2[m
+Author: Your Name <james.wersal37@gmail.com>
+Date:   Tue Sep 11 11:05:31 2018 -0400
+
+    Did this commit?
