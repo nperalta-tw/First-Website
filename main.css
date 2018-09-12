@@ -79,13 +79,13 @@ body {
 
 .grid {
   display: inline-block;
-  margin-right: 5px;
 }
 
 .col-1-3 {
   display: inline-block;  
   width: 33.33%;
   vertical-align: top;
+  height: 400px;
 }
 
 .grid,
@@ -96,7 +96,7 @@ body {
 
 .row {
   background: rgba( 255, 255, 255);
-  padding: 66px 0 350px 0;
+  padding: 20px 0 300px 0;
   text-align: center;
 }
 
@@ -125,7 +125,7 @@ h1 {
 }
 
 .lil-container {
-  height: 150px;
+  height: 190px;
 }
 
 /*--Navigation--*/
@@ -212,7 +212,8 @@ ul li:hover ul li {
 /*--Boxing--*/
 
 .col-1-3 {
-  border: 6px solid #648888;
+  border: 1px solid #648888;
+  margin-right: 10px;
 }
 
 
