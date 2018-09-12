@@ -61,7 +61,9 @@ table {
 /*==Customstyles==*/
 
 body {
-  background-image: url(banff.jpg);  
+  background-image: url(banff.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   
@@ -92,47 +94,60 @@ body {
 }
 
 .row {
-  background: burlywood;
+  background: white;
   padding: 66px 0 350px 0;
   text-align: center;
 }
 
 
 .hero {
-  color: black;
+  background-color: rgba(0, 0, 0, .4);
+  color: white;
   line-height: 44px;
-  padding: 22px 80px 66px 80px;
+  padding: 80px 20px 9px 20px;
   text-align: center;
 }
 
 /*--Header--*/
 
+h1 {
+  font-size: 60px;
+  font-family: Abel;
+}
+.sign {
+  float: left;
+  height: 100%;
+  line-height: 70px;
+  margin: 0;
+  padding: 0;
+}
 
 
 /*--Navigation--*/
 
 .primary-nav {
-  background-color: rgba(0, 0, 0, 0.15);
-  display: inline-block;
-}
-
-.nav ul {
+  background-color: rgba(0, 0, 0, 0.5);
   font-size:           13px;
   font-weight:          400;
   letter-spacing:      .5px;
-  word-spacing: 10px;
   text-transform: uppercase;
-  list-style: Square;
-  margin: 0;
+  height: 200px;
+  padding: 0 200px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
 }
 
-.nav {
-  text-align: center;
+nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
-.nav li {
-  display: inline-block;
-  margin: 0;
+nav ul li {
+  float: right;
+  display: flex;
 }
 
 .container {
@@ -150,7 +165,6 @@ body {
   line-height: 30px;
   font-size: 15px;
   word-spacing: 7px;
-  padding: 10px 0 10px 0;
   font-weight: 300;
 }
 
@@ -179,5 +193,4 @@ body {
   padding-bottom: 10px;
   padding-top: 44px;
   background-color: black;
-  clear: b;
 }
