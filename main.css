@@ -127,12 +127,11 @@ h1 {
 /*--Navigation--*/
 
 .primary-nav {
-  font-size:           13px;
   font-weight:          400;
   letter-spacing:      .5px;
   text-transform: uppercase;
   height: 200px;
-  padding: 0 200px;
+  padding: 10px; 50px;
   width: 100%;
   top: 0;
   left: 0;
@@ -142,15 +141,38 @@ nav ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
+  float: right;
 }
 
 nav ul li {
-  float: right;
+  background-color: rgba(0, 0, 0);
+  opacity: .8;
+  font-size: 13px;
   width: 100px;
-  height: 40px;
-  background:  rgba(0, 0, 0, 0.5);
+  height: 30px; 
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  line-height: 30px;
 }
 
+ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+ul li a:hover {
+  background: green;
+}
+
+ul li ul li {
+  display: none;
+}
+
+ul li:hover ul li {
+  display: block;
+}
 .container {
   text-align: center;
 }
