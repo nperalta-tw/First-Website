@@ -268,3 +268,26 @@ float: right;
 .footer-container {
   background-color: black;
 }
+
+/*--Interests Page--*/
+
+.sub-interest {
+  text-align: center;
+  color: white;
+  
+}
+
+.sub-interest h2 {
+  background: green;
+  display: block;
+  padding: 0 0 200px 0;
+  font-size: 30px;
+  
+}
+
+.sub-interest p {
+  background: black;
+  padding: 0 0 200px 0;
+  margin: 0 0 10px 0;
+  
+}
