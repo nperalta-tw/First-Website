@@ -83,23 +83,34 @@ body {
 }
 
 .col-1-3 {
+  border: 2px solid #648888;
+  border-radius: 10px;
+  margin-right: 30px;
+  background-color: rgba(204, 253, 253, .3);
+}
+
+.about-me img{
+  height: 377px;
+  border-radius: 90px 10px;
+  border: 2px solid red;
+  margin: 28px 0 58px 0;
+}
+.col-1-3 {
   display: inline-block;  
   width: 33.33%;
   vertical-align: top;
-  height: 400px;
+  height: 450px;
   width: 360px;
 }
 
 .grid,
 .col-1-3 {
-    padding-left: 15px;
-    padding-right: 15px;
     display: inline-block;
 }
 
 .row {
-  background: rgba( 255, 255, 255);
-  padding: 20px 20px 100px 20px;
+  background: white;
+  padding: 20px 20px 50px 20px;
   text-align: center;
 }
 
@@ -201,45 +212,26 @@ float: right;
 }
 /*==Typography==*/
 
+.col-1-3 h5 {
+  font-size: 25px;
+  font-style: bold;
+  padding-top: 5px;
+}
 
+.col-1-3 p {
+  color: red;
+}
 /*--Primary Header--*/
 
-#banneritalics {
-  color: rgb(0, 0, 0);
-  font-style: italic;
-  line-height: 30px;
-  font-size: 15px;
-  word-spacing: 7px;
-  font-weight: 300;
-}
-
-.banner {
-  text-align: center;
-  font-weight: 300;
-  font-size: 30px;
-  letter-spacing: .5px;
-  line-height: 30px;
-  text-transform: uppercase;
-}
-
-.banner {
-  background: opacity 0;
-}
 
 
-/*--Boxing--*/
+/*--Mid Grid--*/
 
-.col-1-3 {
-  border: 2px solid #648888;
-  border-radius: 10px;
-  margin-right: 30px;
-}
 
-.about-me img{
-  height: 320px;
-  border-radius: 50%;
-  border: 3px solid grey;
-}
+
+/*--.about-me {
+  background-color: rgb(204, 253, 253);
+}--*/
 
 /*--Footer--*/
 
