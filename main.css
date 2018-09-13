@@ -235,8 +235,13 @@ float: right;
   margin-right: 30px;
 }
 
-
-
+.about-me {
+  background-image: url(Breakfast.jpg);
+  background-size: 240px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top 90px;
+}
 
 /*--Footer--*/
 
