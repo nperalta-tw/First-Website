@@ -162,10 +162,10 @@ h1 {
   float: right;
 }
 
-.primary-nav ul li {
+.primary-nav ul li{
   background-color: rgba(0, 0, 0);
   opacity: .8;
-  font-size: 13px;
+  font-size: 14px;
   width: 100px;
   height: 30px; 
   display: inline-block;
@@ -190,6 +190,7 @@ h1 {
 
 .primary-nav ul li:hover ul li {
   display: block;
+  font-size: 85%;
 }
 .container {
   float: center;
@@ -220,6 +221,13 @@ float: right;
 
 .col-1-3 p {
   color: red;
+}
+
+.interest-container img{
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  display: inline-block;
 }
 /*--Primary Header--*/
 
