@@ -99,7 +99,7 @@ body {
 
 .row {
   background: rgba( 255, 255, 255);
-  padding: 20px 20px 300px 20px;
+  padding: 20px 20px 100px 20px;
   text-align: center;
 }
 
@@ -144,14 +144,14 @@ h1 {
   left: 0;
 }
 
-nav ul {
+.primary-nav ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
   float: right;
 }
 
-nav ul li {
+.primary-nav ul li {
   background-color: rgba(0, 0, 0);
   opacity: .8;
   font-size: 13px;
@@ -163,21 +163,21 @@ nav ul li {
   line-height: 30px;
 }
 
-ul li a {
+.primary-nav ul li a {
   text-decoration: none;
   color: white;
   display: block;
 }
 
-ul li a:hover {
+.primary-nav ul li a:hover {
   background: rgb(4, 20, 168);
 }
 
-ul li ul li {
+.primary-nav ul li ul li {
   display: none;
 }
 
-ul li:hover ul li {
+.primary-nav ul li:hover ul li {
   display: block;
 }
 .container {
@@ -187,6 +187,18 @@ ul li:hover ul li {
   margin: 0 0 0 475px;
 }
 
+.footer-nav {
+  height: 10px;
+}
+.footer-nav ul {
+background-color: black;
+font-size: 14px;
+float: right;
+}
+
+.footer-nav ul li {
+  display: inline-block;
+}
 /*==Typography==*/
 
 
@@ -226,17 +238,15 @@ ul li:hover ul li {
 
 
 
-/*--Primary Footer--*/
+/*--Footer--*/
 
-.primary-footer small {
+.footer-container small {
   float: left;
   font-weight: 400;
-}
-
-.primary-footer {
   color: #648880;
   font-size: 14px;
-  padding-bottom: 10px;
-  padding-top: 44px;
+}
+
+.footer-container {
   background-color: black;
 }
