@@ -192,12 +192,6 @@ h1 {
   display: block;
   font-size: 85%;
 }
-.container {
-  float: center;
-  text-align: center;
-  width: 50%;
-  margin: 0 0 0 475px;
-}
 
 .footer-nav {
   height: 10px;
@@ -246,6 +240,12 @@ float: right;
 }
 /*--Primary Header--*/
 
+.container {
+  float: center;
+  text-align: center;
+  width: 50%;
+  margin: 0 0 0 475px;
+}
 
 
 /*--Mid Grid--*/
