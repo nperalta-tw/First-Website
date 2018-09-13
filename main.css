@@ -274,6 +274,7 @@ float: right;
 .sub-interest {
   text-align: center;
   color: white;
+  text-align: center;
   
 }
 
@@ -282,6 +283,7 @@ float: right;
   display: block;
   padding: 0 0 200px 0;
   font-size: 30px;
+  
   
 }
 
