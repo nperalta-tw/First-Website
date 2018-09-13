@@ -223,10 +223,14 @@ float: right;
   color: red;
 }
 
-.interest-container img{
-  height: 50px;
-  width: 50px;
+.interests-container img {
+  height: 130px;
+  width: 130px;
   border: 1px solid black;
+  display: inline-block;
+}
+
+.interests-container ul li{
   display: inline-block;
 }
 /*--Primary Header--*/
