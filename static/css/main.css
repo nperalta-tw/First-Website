@@ -2,7 +2,7 @@
 /*==Customstyles==*/
 
 body {
-  background-image: url(banff.jpg); 
+  background-image: url(../img/banff.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
